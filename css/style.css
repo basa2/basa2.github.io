@@ -221,15 +221,6 @@ body {
 	position: relative;
     width: 40px;
 	z-index:-10;
-  	animation: icons-move 1s infinite;
-}
-
-@keyframes icons-move {
-	0%   {transform: translateY(0);}
-  	25%  {transform: translateY(3px);}
- 	50%  {transform: translateY(3px);}
-  	75%  {transform: translateY(3px);}
-  	100% {transform: translateY(0);}
 }
 
 /* Projects */
@@ -361,30 +352,6 @@ body {
 
 .members__icons:hover{
 	fill: royalblue;
-}
-
-.left__arrow {
-		animation: leftarrow-move 1.25s infinite;
-}
-
-.right__arrow{
-		animation: rightarrow-move 1.25s infinite;
-}
-
-@keyframes leftarrow-move {
-	0%   {transform: translateX(3px);}
-  	25%  {transform: translateX(3px);}
- 	50%  {transform: translateX(0);}
-  	75%  {transform: translateX(0);}
-  	100% {transform: translateX(3px);}
-}
-
-@keyframes rightarrow-move {
-	0%   {transform: translateX(-3px);}
-  	25%  {transform: translateX(-3px);}
- 	50%  {transform: translateX(0);}
-  	75%  {transform: translateX(0);}
-  	100% {transform: translateX(-3px);}
 }
 
 
