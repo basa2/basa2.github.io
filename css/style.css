@@ -208,9 +208,9 @@ body {
 }
 
 
-.about__icons {
+.about__article {
     display: grid;
-    gap: 1em;
+    gap: .8em;
     justify-items: center;
     width: 260px;
     overflow: hidden;
@@ -220,7 +220,7 @@ body {
 .about__icon {
 	position: relative;
     width: 40px;
-	z-index:-10;
+	z-index: -10;
 }
 
 /* Projects */
